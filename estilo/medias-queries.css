@@ -27,9 +27,6 @@
     #section-header, #section-projetos, #article-sobre{
         max-width: 800px;
     }
-    header{
-        height: 90vh;
-    }
     #section-header h1{
         margin-top: 20px;
     }
@@ -39,8 +36,8 @@
     #picture-header {
         margin: 20px;
     }
-    #section-projetos{
-        height: 90vh;
+    #seta{
+        margin-bottom:70px ;
     }
     #section-projetos h2{
         margin-bottom: 50px;
