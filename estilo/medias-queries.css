@@ -1,0 +1,57 @@
+@media screen and (min-width:768px) {
+#section-header, #section-projetos, #article-sobre{
+        max-width: 768px;
+    }#burguer{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    #menu{
+        align-self: center;
+        display: block;
+        position: unset;
+    }
+    #menu ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*manter o andre alinhado*/
+    }
+    #menu ul li{
+        border-radius: 5px;
+    }
+}
+@media screen and (min-width:1025px){
+    #section-header, #section-projetos, #article-sobre{
+        max-width: 800px;
+    }
+    header{
+        height: 90vh;
+    }
+    #section-header h1{
+        margin-top: 20px;
+    }
+    #section-header h2, p{
+        margin-bottom: 20px;
+    }
+    #picture-header {
+        margin: 20px;
+    }
+    #section-projetos{
+        height: 90vh;
+    }
+    #section-projetos h2{
+        margin-bottom: 50px;
+    }
+    .sections{
+        display: flex;
+    }
+    picture > source{
+        padding: 20px;
+    }
+    #section-sobre h2{
+        margin: 20px 0px;
+    }
+}
